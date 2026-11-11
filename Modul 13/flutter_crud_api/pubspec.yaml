@@ -1,0 +1,32 @@
+name: flutter_crud_api
+description: "Aplikasi Flutter CRUD dengan REST API (JSONPlaceholder)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # Paket untuk komunikasi HTTP
+  http: ^1.1.0
+
+  # Paket untuk format tanggal
+  intl: ^0.18.1
+
+  # Paket untuk kustomisasi font
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
